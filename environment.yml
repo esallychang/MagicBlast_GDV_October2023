@@ -1,0 +1,14 @@
+name: magicblast-gdv-october2023
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pip
+  - entrez-direct
+  - magicblast
+  - pip:
+    - nbgitpuller
+    - bash_kernel
